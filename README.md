@@ -4,10 +4,10 @@
 <p align="center">
 <a href="https://cn.vuejs.org/"/><img src="https://img.shields.io/badge/vue-^3.3.4-rgb(66, 184, 131)"/>
 <a href="https://element-plus.org/zh-CN/" /><img src="https://img.shields.io/badge/element_plus-^3.3.4-rgb(64, 158, 255)"/>
-<img src="https://img.shields.io/badge/ pinia-^2.1.6-rgb(255, 216, 89)"/>
-<img src="https://img.shields.io/badge/vite-^4.4.5-rgb(184, 59, 254)"/>
-<img src="https://img.shields.io/badge/pnpm-rgb(249, 173, 0)"/>
-   
+<a href="https://pinia.vuejs.org/zh/" /><img src="https://img.shields.io/badge/ pinia-^2.1.6-rgb(255, 216, 89)"/>
+<a href="https://www.vitejs.net/" /><img src="https://img.shields.io/badge/vite-^4.4.5-rgb(184, 59, 254)"/>
+<a href="https://www.pnpm.cn/" /><img src="https://img.shields.io/badge/pnpm-rgb(249, 173, 0)"/>
+<a href="https://www.nodejs.com.cn/ "/><img src="https://img.shields.io/badge/nodejs-rgb(67, 133, 61)"/>
 <img align="center" src="https://img0.baidu.com/it/u=2808493158,1713537604&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"/>
 <h2 align="center"></h2>
 
