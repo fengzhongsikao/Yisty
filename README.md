@@ -2,7 +2,6 @@
 <h1 align="center">YiStudy</h1>
 <h2 align="center">
 
-[![Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/vuejs/vue)
 
 
 </h2>
@@ -17,7 +16,7 @@
 
 <img align="center" src="https://img0.baidu.com/it/u=2808493158,1713537604&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"/>
 
-
+<img src="https://badgen.net/github/release/😲/:Yisty/stable"/>
 #### 介绍
 学习易经的网页，有桌面端，这是一个用vue做的易经学习程序，可以看卦象与爻辞
 
