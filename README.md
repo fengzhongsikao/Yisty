@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-<img src="https://img.shields.io/badge/vue-^3.3.4-green"/>
+<img src="https://img.shields.io/badge/vue-^3.3.4-rgb(66, 184, 131)"/>
 <img src="https://img.shields.io/badge/element_plus-^3.3.4-blue"/>
 <img src="https://img.shields.io/badge/ pinia-^2.1.6-yello"/>
 <img src="https://img.shields.io/badge/vite-^4.4.5-pruple"/>
