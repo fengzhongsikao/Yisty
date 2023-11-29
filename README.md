@@ -1,6 +1,5 @@
 <p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 <h1 align="center">YiStudy</h1>
-<h2 align="center"></h2>
 
 <p align="center">
 <img src="https://img.shields.io/badge/vue-^3.3.4-rgb(66, 184, 131)"/>
@@ -12,7 +11,7 @@
 <img align="center" src="https://img0.baidu.com/it/u=2808493158,1713537604&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"/>
 <h2 align="center"></h2>
 
-
+<p></p>
 
 
 #### 介绍
