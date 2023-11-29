@@ -2,7 +2,7 @@
 <h1 align="center">YiStudy</h1>
 
 <p align="center">
-[<img src="https://img.shields.io/badge/vue-^3.3.4-rgb(66, 184, 131)"/>](https://cn.vuejs.org/)
+<img src="https://img.shields.io/badge/vue-^3.3.4-rgb(66, 184, 131)"/>(https://cn.vuejs.org/)
 [<img src="https://img.shields.io/badge/element_plus-^3.3.4-rgb(64, 158, 255)"/>](https://element-plus.org/zh-CN/)
 <img src="https://img.shields.io/badge/ pinia-^2.1.6-rgb(255, 216, 89)"/>
 <img src="https://img.shields.io/badge/vite-^4.4.5-rgb(184, 59, 254)"/>
