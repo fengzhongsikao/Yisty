@@ -1,7 +1,8 @@
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 <h1 align="center">YiStudy</h1>
 <h2 align="center">
 
-[![Mentioned in Awesome Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/vuejs/awesome-vue)
+[![Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/vuejs/vue)
 
 </h2>
 
