@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-https://img.shields.io/badge/vue_3.0-blue
+<img src="https://img.shields.io/badge/vue_^3.3.4-blue"/>
 
 #### 介绍
 学习易经的网页，有桌面端，这是一个用vue做的易经学习程序，可以看卦象与爻辞
