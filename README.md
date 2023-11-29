@@ -7,7 +7,7 @@
 <a href="https://pinia.vuejs.org/zh/" /><img src="https://img.shields.io/badge/ pinia-^2.1.6-rgb(255, 216, 89)"/>
 <a href="https://www.vitejs.net/" /><img src="https://img.shields.io/badge/vite-^4.4.5-rgb(184, 59, 254)"/>
 <a href="https://www.pnpm.cn/" /><img src="https://img.shields.io/badge/pnpm-rgb(249, 173, 0)"/>
-<a href="https://www.nodejs.com.cn/ "/><img src="https://img.shields.io/badge/nodejs-rgb(67, 133, 61)"/>
+<a href="https://www.nodejs.com.cn/ "/><img src="https://img.shields.io/badge/nodejs-^18.16.1-rgb(67, 133, 61)"/>
 <img align="center" src="https://img0.baidu.com/it/u=2808493158,1713537604&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"/>
 <h2 align="center"></h2>
 
