@@ -1,9 +1,12 @@
-# Vue 3 + Vite
-
 <h1 align="center">YiStudy</h1>
 <h2 align="center">
 
 [![Mentioned in Awesome Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/vuejs/awesome-vue)
+
+</h2>
+
+<p align="center">
+https://img.shields.io/badge/vue_3.0-blue
 
 #### 介绍
 学习易经的网页，有桌面端，这是一个用vue做的易经学习程序，可以看卦象与爻辞
