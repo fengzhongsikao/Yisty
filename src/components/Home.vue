@@ -3,89 +3,70 @@ import Aside from 'comps/Aside.vue'
 import Sixgua from 'comps/Sixgua.vue';
 import Myheader from 'comps/Myheader.vue';
 import Taiji from 'comps/Taiji.vue'
-import { defineAsyncComponent } from 'vue';
+import {defineAsyncComponent} from 'vue';
 
-import { useCounterStore } from '@/stores/counter'
-import { storeToRefs } from 'pinia'
+import {useCounterStore} from '@/stores/counter'
+import {storeToRefs} from 'pinia'
+import Ying from "comps/twoyao/ying.vue";
+import Yang from "comps/twoyao/yang.vue";
 
 const counter = useCounterStore();
-const { showtaiji } = storeToRefs(counter);
+const {showtaiji} = storeToRefs(counter);
 
 const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue')
-
 )
 </script>
 
 <template>
-  <el-container>
-    <el-header>
-      <Myheader></Myheader>
-    </el-header>
-    <el-container class="taiji1" v-if="showtaiji == true" :class="[showtaiji ? 'yanse' : '']"
-      style="height: calc(100vh - 60px)">
-      <Taiji></Taiji>
-    </el-container>
-    <el-container style="height: 100vh" v-if="showtaiji == false">
-      <Aside></Aside>
-      <el-main class="elmain1">
-        <div class="left">
-          <Suspense>
-            <template #default>
-              <SyneVue></SyneVue>
-            </template>
-            <template #fallback>
-              <div></div>
-            </template>
-          </Suspense>
+<!--  顶部tabbar-->
+  <header class="navbar sticky-top navbar-expand-lg bg-light navbar-dark">
+    <Myheader></Myheader>
+  </header>
+  <!-- 图片显示 -->
+  <div class="img1" v-if="showtaiji == true" :class="[showtaiji ? 'yanse' : '']"
+      >
+    <Taiji class="img2 d-flex justify-content-center"></Taiji>
+  </div>
+  <!--  爻辞主页-->
+  <main class="container-fluid">
+    <div v-if="showtaiji==false" class="row">
+      <!--   左侧按钮区域   -->
+      <div class="col-md-3 col-sm-4">
+        <Aside></Aside>
+      </div>
+      <!--  爻辞与卦象显示区域-->
+      <div class="col-md-9 col-sm-6" >
+        <div class="row">
+          <div class="col-md-5 col-sm-12">
+            <!--  异步渲染组件-->
+            <Suspense>
+              <template #default>
+                <SyneVue class="row"></SyneVue>
+              </template>
+              <template #fallback>
+                <div></div>
+              </template>
+            </Suspense>
+          </div>
+          <div class="col-md-7 c0l-sm-7 col-7">
+              <Sixgua></Sixgua>
+          </div>
         </div>
-        <div class="you">
-          <Sixgua></Sixgua>
-        </div>
-      </el-main>
-    </el-container>
-  </el-container>
+      </div>
+
+
+    </div>
+  </main>
+
 </template>
 
 <style scoped>
-.yanse {
-  background: #00cec9;
+.img1{
+  height: calc(100vh - 88px);
+  background-color: #f1c40f;
+}
+.img2{
+  transform: translateY(50%);
 }
 
-.you {
-  width: 100%;
-  display: flex;
-  margin-left: 100px;
-  flex-direction: column;
-}
-
-.taiji1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-}
-
-.elmain1 {
-  display: flex;
-
-}
-
-.el-header {
-  display: block;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  border-bottom: solid 1px #ddd;
-}
-
-
-
-.el-main {
-  position: absolute;
-  left: 200px;
-  right: 0;
-  top: 60px;
-  bottom: 0;
-  overflow-y: scroll;
-}
 </style>

@@ -1,24 +1,8 @@
-<script setup>
-
-</script> 
 
 <template>
-    <div class="ying">
-        <el-button></el-button>
-        <el-button></el-button>
-    </div>
+  <div class="row justify-content-md-between justify-content-between py-1" style="height: 40px; width: 300px;">
+    <button class="btn btn-dark h-100 w-30 col-5 rounded-0" type="button"></button>
+    <button class="btn btn-dark h-100 w-30 col-5 rounded-0" type="button"></button>
+  </div>
 </template>
 
-
-<style scoped>
-.el-button {
-    width: 100px;
-    margin-bottom: 10px;
-    background-color: black;
-}
-
-.ying {
-    display: flex;
-    flex-direction: row;
-}
-</style>

@@ -138,6 +138,3 @@ const list1 = [
         </ul>
     </div>
 </template>
-
-
-<style scoped></style>

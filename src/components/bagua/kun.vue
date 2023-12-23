@@ -1,6 +1,3 @@
-<script setup>
-import ying from 'comps/twoyao/ying.vue';      
-</script> 
 
 
 <template>

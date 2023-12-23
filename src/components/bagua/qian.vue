@@ -1,6 +1,4 @@
-<script setup>
-import yang from 'comps/twoyao/yang.vue';   
-</script> 
+
 
 
 <template>
@@ -10,5 +8,3 @@ import yang from 'comps/twoyao/yang.vue';
     <yang></yang>
 </template>
 
-
-<style scoped></style>
