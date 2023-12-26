@@ -8,11 +8,7 @@ export const useCounterStore = defineStore('counter', {
       showtaiji: true
     }
   },
-  // 也可以这样定义
-  // state: () => ({ count: 0 })
   actions: {
-    // increment() {
-    //   this.count++
-    // },
+
   },
 })

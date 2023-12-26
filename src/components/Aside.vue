@@ -81,7 +81,7 @@ let quan = [
 
 
 <template>
-  <aside class="pre-scrollable text-center" style="overflow-y:auto; overflow-x: hidden; width:200px; height:100vh;">
+  <aside class="pre-scrollable text-center" style="overflow-y:auto; overflow-x: hidden; width:205px; height:calc(100vh - 88px);">
       <div class="row justify-content-evenly py-md-1 text-center" v-for="item in 32" >
             <button type="button" class="btn btn-outline-info text-nowrap col-md-5 text-center" @click="dianji1(item)">{{ quan[item + item -2] }}第{{ item + item - 1 }}</button>
             <button type="button" class="btn btn-outline-info text-nowrap col-md-5 text-center" @click="dianji2(item)">{{ quan[item + item - 1] }}第{{ item + item }}</button>

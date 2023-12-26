@@ -13,23 +13,23 @@ import Yang from "comps/twoyao/yang.vue";
 const counter = useCounterStore();
 const {showtaiji} = storeToRefs(counter);
 
-const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue')
-)
+const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue'))
 </script>
 
 <template>
-<!--  顶部tabbar-->
-  <header class="navbar sticky-top navbar-expand-lg bg-light navbar-dark">
-    <Myheader></Myheader>
-  </header>
+<div class="">
+<!--    顶部tabbar-->
+    <nav class="navbar  navbar-expand-lg bg-light navbar-dark">
+      <Myheader></Myheader>
+    </nav>
   <!-- 图片显示 -->
-  <div class="img1" v-if="showtaiji == true" :class="[showtaiji ? 'yanse' : '']"
-      >
+  <div class="img1" v-if="showtaiji === true" :class="[showtaiji ? 'yanse' : '']"
+  >
     <Taiji class="img2 d-flex justify-content-center"></Taiji>
   </div>
   <!--  爻辞主页-->
-  <main class="container-fluid">
-    <div v-if="showtaiji==false" class="row">
+  <main class="container-fluid " v-if="showtaiji===false">
+    <div class="row">
       <!--   左侧按钮区域   -->
       <div class="col-md-3 col-sm-4">
         <Aside></Aside>
@@ -37,7 +37,7 @@ const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue')
       <!--  爻辞与卦象显示区域-->
       <div class="col-md-9 col-sm-6" >
         <div class="row">
-          <div class="col-md-5 col-sm-12">
+          <div class="col-md-5 col-sm-12 pt-5">
             <!--  异步渲染组件-->
             <Suspense>
               <template #default>
@@ -48,15 +48,14 @@ const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue')
               </template>
             </Suspense>
           </div>
-          <div class="col-md-7 c0l-sm-7 col-7">
-              <Sixgua></Sixgua>
+          <div class="col-md-7 c0l-sm-7 col-7 pt-5">
+            <Sixgua></Sixgua>
           </div>
         </div>
       </div>
-
-
     </div>
   </main>
+</div>
 
 </template>
 
