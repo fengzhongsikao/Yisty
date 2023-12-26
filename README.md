@@ -36,5 +36,11 @@ npm install -g pnpm
 pnpm run dev
  ```
 
- 在浏览器打开即可看到运行效果
+ 在浏览器打开即可看到运行效果<br/>
+ <br/>
+感谢JetBrains 提供的开源项目许可证，
+
+<div>
+<img alt="JetBrains" src="https://file.xunkong.cc/static/repo/xunkong/JetBrains_Logo_2016.svg" height="60" />
+</div>
 

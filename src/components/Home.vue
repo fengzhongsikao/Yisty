@@ -25,7 +25,7 @@ const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue'))
   <!-- 图片显示 -->
   <div class="img1" v-if="showtaiji === true" :class="[showtaiji ? 'yanse' : '']"
   >
-    <Taiji class="img2 d-flex justify-content-center"></Taiji>
+    <Taiji class="img2 "></Taiji>
   </div>
   <!--  爻辞主页-->
   <main class="container-fluid " v-if="showtaiji===false">
@@ -59,13 +59,4 @@ const SyneVue = defineAsyncComponent(() => import('comps/Yaoci.vue'))
 
 </template>
 
-<style scoped>
-.img1{
-  height: calc(100vh - 88px);
-  background-color: #f1c40f;
-}
-.img2{
-  transform: translateY(50%);
-}
 
-</style>
